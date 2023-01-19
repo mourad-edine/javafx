@@ -10,6 +10,8 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Button;
 import javafx.scene.control.Hyperlink;
 import javafx.scene.control.PasswordField;
@@ -52,7 +54,7 @@ public class Page1Controller {
    
 
     public void handlelien2() throws IOException{
-        Parent root = FXMLLoader.load(getClass().getResource("fxlog.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("page1.fxml"));
         
         Stage window = (Stage)lien2.getScene().getWindow();
         window.setScene(new Scene(root));
@@ -78,15 +80,27 @@ public class Page1Controller {
                  stage.setScene(scene);
                  stage.show();
                  stage.setTitle("le vent du sud");
+                 Alert alert = new Alert(AlertType.INFORMATION);
+                 alert.setTitle("mon alerte");
+                 alert.setContentText("bienvenue mr"+" "+nom.getText());
+                 alert.showAndWait();
                 
        
             }
             else{
-                JOptionPane.showMessageDialog(null,"mauvais mot de passe");
+                 Alert alert = new Alert(AlertType.INFORMATION);
+                 alert.setTitle("mon alerte");
+                 alert.setContentText("verifier votre mot de passe ou votre nom !");
+                 alert.showAndWait();
             }
         } catch (Exception ex) {
             ex.printStackTrace();
-            JOptionPane.showMessageDialog(null,"misy raha tsy manjary ao");
+            Alert alert = new Alert(AlertType.INFORMATION);
+            alert.setTitle("mon alerte");
+            alert.setContentText("problème sql");
+            alert.showAndWait();
+            
+            
         }
           
     }

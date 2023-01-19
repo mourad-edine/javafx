@@ -109,7 +109,7 @@ public class FxlogController  {
                 statement.setString(1,nom1);
                 statement.setString(2,adresse1);
                 statement.setString(3,passe1);
-               int result = statement.executeUpdate();
+                int result = statement.executeUpdate();
                 
                 
                 if(result==1){

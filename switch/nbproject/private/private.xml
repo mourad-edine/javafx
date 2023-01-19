@@ -3,18 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Manouher/Documents/NetBeansProjects/switch/src/pkgswitch/page1.fxml</file>
-            <file>file:/C:/Users/Manouher/Documents/NetBeansProjects/switch/src/pkgswitch/Accueil.fxml</file>
             <file>file:/C:/Users/Manouher/Documents/NetBeansProjects/switch/src/pkgswitch/Page1Controller.java</file>
-            <file>file:/C:/Users/Manouher/Documents/NetBeansProjects/switch/src/pkgswitch/utilisateur.fxml</file>
             <file>file:/C:/Users/Manouher/Documents/NetBeansProjects/switch/src/pkgswitch/FxlogController.java</file>
-            <file>file:/C:/Users/Manouher/Documents/NetBeansProjects/switch/src/pkgswitch/AccueilControler.java</file>
             <file>file:/C:/Users/Manouher/Documents/NetBeansProjects/switch/src/pkgswitch/SwitchMainapp.java</file>
-            <file>file:/C:/Users/Manouher/Documents/NetBeansProjects/switch/src/pkgswitch/Page2Controller.java</file>
+            <file>file:/C:/Users/Manouher/Documents/NetBeansProjects/switch/src/pkgswitch/database.java</file>
             <file>file:/C:/Users/Manouher/Documents/NetBeansProjects/switch/src/pkgswitch/UtilisateurController.java</file>
-            <file>file:/C:/Users/Manouher/Documents/NetBeansProjects/switch/src/pkgswitch/style.css</file>
-            <file>file:/C:/Users/Manouher/Documents/NetBeansProjects/switch/src/pkgswitch/page2.fxml</file>
             <file>file:/C:/Users/Manouher/Documents/NetBeansProjects/switch/src/pkgswitch/fxlog.fxml</file>
+            <file>file:/C:/Users/Manouher/Documents/NetBeansProjects/switch/src/pkgswitch/tableau.java</file>
         </group>
     </open-files>
 </project-private>

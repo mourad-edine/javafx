@@ -44,3 +44,16 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     
     -fx-background-color : #0D9488;
 }
+.haut{
+    
+    -fx-background-color : #a3a3a3;
+}
+.supp{
+    -fx-background-color : #ef4444;
+}
+.modif{
+    -fx-background-color : #22c55e;
+}
+.af{
+    -fx-background-color : #d1d5db;
+}

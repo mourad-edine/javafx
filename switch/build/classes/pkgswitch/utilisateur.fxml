@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.jfoenix.controls.JFXButton?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
@@ -7,16 +8,16 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="590.0" prefWidth="738.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pkgswitch.AccueilControler">
+<AnchorPane id="AnchorPane" fx:id="root" prefHeight="590.0" prefWidth="738.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pkgswitch.UtilisateurController">
    <children>
-      <TableView layoutX="14.0" layoutY="113.0" prefHeight="200.0" prefWidth="719.0" stylesheets="@style.css">
+      <TableView fx:id="tablehierarche" layoutX="14.0" layoutY="113.0" prefHeight="200.0" prefWidth="719.0" stylesheets="@style.css">
         <columns>
-          <TableColumn prefWidth="77.60003662109375" text="ID" />
-          <TableColumn minWidth="9.60003662109375" prefWidth="101.5999755859375" text="nom" />
-            <TableColumn prefWidth="120.79997253417969" text="adresse" />
-            <TableColumn prefWidth="127.99993896484375" text="mdp" />
-            <TableColumn prefWidth="99.99993896484375" text="date" />
-            <TableColumn prefWidth="99.99993896484375" text="email" />
+          <TableColumn fx:id="colonne1" prefWidth="77.60003662109375" text="ID" />
+          <TableColumn fx:id="colonne2" minWidth="9.60003662109375" prefWidth="101.5999755859375" text="nom" />
+            <TableColumn fx:id="colonne3" prefWidth="120.79997253417969" text="adresse" />
+            <TableColumn fx:id="colonne4" prefWidth="127.99993896484375" text="mdp" />
+            <TableColumn fx:id="colonne5" prefWidth="99.99993896484375" text="date" />
+            <TableColumn fx:id="colonne6" prefWidth="99.99993896484375" text="email" />
             <TableColumn prefWidth="99.99993896484375" text="TF" />
         </columns>
       </TableView>
@@ -29,5 +30,20 @@
             </Label>
          </children>
       </Pane>
+      <JFXButton fx:id="ajouter" layoutX="14.0" layoutY="332.0" onAction="#pageAjouter" prefHeight="26.0" prefWidth="112.0" styleClass="corps" stylesheets="@style.css" text="Ajouter">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="135.0" layoutY="332.0" prefHeight="26.0" prefWidth="112.0" styleClass="supp" stylesheets="@style.css" text="Supprimer">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="264.0" layoutY="332.0" prefHeight="26.0" prefWidth="120.0" styleClass="modif" stylesheets="@style.css" text="modifier">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXButton>
    </children>
 </AnchorPane>

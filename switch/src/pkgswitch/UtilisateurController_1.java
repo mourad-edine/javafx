@@ -32,7 +32,7 @@ import javax.swing.JOptionPane;
  *
  * @author Manouher
  */
-public class UtilisateurController implements Initializable {
+public class UtilisateurController_1 implements Initializable {
     private Connection connect;
     private PreparedStatement statement;
     private ResultSet result;
